@@ -1,0 +1,26 @@
+{
+  "name": "empleyees",
+  "version": "1.0.0",
+  "description": "CRUD empleados con oracle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Angy Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "oracledb": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "imports": {
+    "#Base/*.js": "./*.js"
+  },
+  "type": "module"
+}
